@@ -18,5 +18,5 @@ The goal of this project is to create a library for C++, which allows for easy t
 
 ### License
 
-See file "LICENSE".
+See file "LICENSE" 
 ([MIT](https://opensource.org/licenses/MIT))
