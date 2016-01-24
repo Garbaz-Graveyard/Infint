@@ -20,4 +20,3 @@ The goal of this project is to create a library for C++, which allows for easy t
 
 See file "LICENSE".
 ([MIT](https://opensource.org/licenses/MIT))
-- 
