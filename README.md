@@ -15,6 +15,5 @@ The goal of this project is to create a library for C++, which allows for easy t
 - Floating point numbers
 
 ##License
-See file "LICENSE"
-([MIT](https://opensource.org/licenses/MIT))
+See file "LICENSE" ([MIT](https://opensource.org/licenses/MIT))
 - 
