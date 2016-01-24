@@ -13,8 +13,8 @@ The goal of this project is to create a library for C++, which allows for easy t
 - Logic/Bitwise (&,|,^,>>,<<)
 - More complex functions (log, sin, ...)
 - Floating point numbers
-##License
 
+##License
 See file "LICENSE"
-[(MIT)](https://opensource.org/licenses/MIT)
+([MIT](https://opensource.org/licenses/MIT))
 - 
