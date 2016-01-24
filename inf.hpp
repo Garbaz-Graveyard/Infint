@@ -11,16 +11,16 @@ class inf
 		char* ptr = NULL;
 		
 	public:
-		inf(const int i) { ptr = (char*)malloc(SIZE_INT); size = SIZE_INT; (int&)ptr = i; }	// TODO: UNSIGNED ONLY FOR NOW!
-		inf(const unsigned int i) { ptr = (char*)malloc(SIZE_INT); size = SIZE_INT; (unsigned int&)ptr = i; }
+//		inf(const int i) { ptr = (char*)malloc(SIZE_INT); size = SIZE_INT; (int&)ptr = i; }	// TODO: UNSIGNED ONLY FOR NOW!
+//		inf(const unsigned int i) { ptr = (char*)malloc(SIZE_INT); size = SIZE_INT; (unsigned int&)ptr = i; }
 		inf(const long i = 0) { ptr = (char*)malloc(SIZE_LONG); size = SIZE_LONG; (long&)ptr = i; }	// TODO: UNSIGNED ONLY FOR NOW!
 		inf(const unsigned long i) { ptr = (char*)malloc(SIZE_LONG); size = SIZE_LONG; (unsigned long&)ptr = i; }
 		inf(const inf& i) { set(i); }
 		
 //		~inf(){ free(ptr); } // Seems like i dont need that. Why? Shouldn't I free malloc()ed memory?
 		
-		inf operator = (const int i) { return inf(i); }
-		inf operator = (const unsigned int i) { return inf(i); }
+//		inf operator = (const int i) { return inf(i); }
+//		inf operator = (const unsigned int i) { return inf(i); }
 		inf operator = (const long i) { return inf(i); }
 		inf operator = (const unsigned long i) { return inf(i); }
 		inf operator = (const inf& i) { inf ret = 0; ret.set(i); return ret; }
@@ -46,6 +46,33 @@ class inf
 			//TODO: Implement addition
 			return ret;
 		}
+		
+		void operator += (inf i)
+		{
+			
+		}
+		
+		void operator ++ ()
+		{
+			
+		}
+		
+		inf operator - (inf i)
+		{
+			
+		}
+		
+		void operator -= (inf i)
+		{
+			
+		}
+		
+		void operator -- ()
+		{
+			
+		}
+		
+		//TODO: Implement mutiplication, division, powering, log, etc.
 		
 		size_t getSize() { return size; };
 		char* getPtr() { return ptr; };
