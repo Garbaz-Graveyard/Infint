@@ -43,7 +43,9 @@ class inf
 		inf operator + (inf i)
 		{
 			inf ret = 0;
-			//TODO: Implement addition
+			
+			//TODO: Implement
+			
 			return ret;
 		}
 		
@@ -76,6 +78,12 @@ class inf
 		
 		size_t getSize() { return size; };
 		char* getPtr() { return ptr; };
+		
+		void setSize(size_t s)
+		{
+			size = s;
+			realloc(ptr, size);
+		}
 		
 		unsigned long toLong() { return (unsigned long&)ptr; }
 		unsigned int toInt() { return (unsigned int&)ptr; }
