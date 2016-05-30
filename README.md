@@ -10,7 +10,7 @@ The goal of this project is to create a library for C++, which allows for easy t
 - Everything; For now I only implemented a way to inititialize a value from a normal long int.
 - Addition (+,+=,++)
 - Subtraction (-,-=,--)
-- Multiplication (*,*=)
+- Multiplication (\*,\*=)
 - Division (/,/=)
 - Logic/Bitwise (&,|,^,>>,<<)
 - More complex functions (log, sin, ...)
